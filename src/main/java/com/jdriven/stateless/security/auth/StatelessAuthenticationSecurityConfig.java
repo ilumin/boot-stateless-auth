@@ -1,5 +1,7 @@
-package com.jdriven.stateless.security;
+package com.jdriven.stateless.security.auth;
 
+import com.jdriven.stateless.security.TokenAuthenticationService;
+import com.jdriven.stateless.security.UserDetailsService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

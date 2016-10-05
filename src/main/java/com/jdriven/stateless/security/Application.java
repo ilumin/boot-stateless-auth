@@ -1,7 +1,5 @@
 package com.jdriven.stateless.security;
 
-import javax.servlet.Filter;
-
 import org.springframework.beans.factory.InitializingBean;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.SpringApplication;
@@ -12,13 +10,15 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.web.filter.CharacterEncodingFilter;
 
+import javax.servlet.Filter;
+
 @EnableAutoConfiguration
 @Configuration
 @ComponentScan
-public class StatelessAuthentication {
+public class Application {
 
 	public static void main(String[] args) {
-		SpringApplication.run(StatelessAuthentication.class, args);
+		SpringApplication.run(Application.class, args);
 	}
 
 	@Bean

@@ -1,4 +1,4 @@
-package com.jdriven.stateless.security;
+package com.jdriven.stateless.security.user;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonProperty;

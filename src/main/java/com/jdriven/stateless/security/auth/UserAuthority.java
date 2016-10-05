@@ -1,7 +1,7 @@
 package com.jdriven.stateless.security.auth;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
-import com.jdriven.stateless.security.User;
+import com.jdriven.stateless.security.user.User;
 import org.springframework.security.core.GrantedAuthority;
 
 import javax.persistence.*;

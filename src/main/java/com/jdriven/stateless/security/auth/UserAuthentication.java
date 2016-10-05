@@ -2,7 +2,7 @@ package com.jdriven.stateless.security.auth;
 
 import java.util.Collection;
 
-import com.jdriven.stateless.security.User;
+import com.jdriven.stateless.security.user.User;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.GrantedAuthority;
 

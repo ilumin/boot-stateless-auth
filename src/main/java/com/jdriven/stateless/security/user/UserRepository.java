@@ -1,4 +1,4 @@
-package com.jdriven.stateless.security;
+package com.jdriven.stateless.security.user;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 

@@ -1,6 +1,6 @@
 package com.jdriven.stateless.security.auth;
 
-import com.jdriven.stateless.security.User;
+import com.jdriven.stateless.security.user.User;
 
 public enum UserRole {
 	USER, ADMIN;

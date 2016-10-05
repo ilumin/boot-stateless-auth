@@ -1,4 +1,4 @@
-package com.jdriven.stateless.security;
+package com.jdriven.stateless.security.user;
 
 import com.jdriven.stateless.security.auth.UserAuthentication;
 import com.jdriven.stateless.security.auth.UserRole;

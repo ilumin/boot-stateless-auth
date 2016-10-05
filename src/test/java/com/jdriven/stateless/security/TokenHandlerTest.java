@@ -8,6 +8,7 @@ import java.util.Date;
 
 import com.jdriven.stateless.security.auth.TokenHandler;
 import com.jdriven.stateless.security.auth.UserRole;
+import com.jdriven.stateless.security.user.User;
 import org.junit.Before;
 import org.junit.Test;
 

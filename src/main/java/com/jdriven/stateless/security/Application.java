@@ -1,5 +1,6 @@
 package com.jdriven.stateless.security;
 
+import com.jdriven.stateless.security.auth.UserRole;
 import org.springframework.beans.factory.InitializingBean;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.SpringApplication;

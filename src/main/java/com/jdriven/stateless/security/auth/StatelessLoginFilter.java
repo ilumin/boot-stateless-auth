@@ -2,7 +2,6 @@ package com.jdriven.stateless.security.auth;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.jdriven.stateless.security.User;
-import com.jdriven.stateless.security.UserAuthentication;
 import com.jdriven.stateless.security.UserDetailsService;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;

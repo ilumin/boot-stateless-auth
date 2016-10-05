@@ -1,11 +1,11 @@
-package com.jdriven.stateless.security;
+package com.jdriven.stateless.security.auth;
+
+import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.jdriven.stateless.security.User;
+import org.springframework.security.core.GrantedAuthority;
 
 import javax.persistence.*;
 import javax.validation.constraints.NotNull;
-
-import org.springframework.security.core.GrantedAuthority;
-
-import com.fasterxml.jackson.annotation.JsonIgnore;
 
 @Entity
 @IdClass(UserAuthority.class)

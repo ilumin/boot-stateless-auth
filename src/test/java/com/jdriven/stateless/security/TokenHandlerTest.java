@@ -7,6 +7,7 @@ import java.security.SecureRandom;
 import java.util.Date;
 
 import com.jdriven.stateless.security.auth.TokenHandler;
+import com.jdriven.stateless.security.auth.UserRole;
 import org.junit.Before;
 import org.junit.Test;
 
